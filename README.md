@@ -34,3 +34,14 @@ Minimal ETH vault allowing deposits via receive() and owner-only withdrawals.
 
 ETH vault contract that locks deposited funds until a predefined unlock timestamp.
 Withdrawals are restricted to the owner and only allowed after the unlock time.
+
+---
+
+## 🔹 ExecutionVault.sol ⚙️
+
+**Network:** Pharos Atlantic Testnet  
+**Address:** https://pharoscan.xyz/address/0x183FC87B07Cb3dA65734174415B2FCd8E9939382  
+**Type:** ETH Vault / Execution Utility
+
+Minimal ETH vault allowing direct deposits via `receive()` and owner-only withdrawals.  
+Implements modern ETH transfer logic using `call`, ownership management, and full event logging.
