@@ -23,3 +23,14 @@ Minimal Solidity contracts deployed on Pharos Atlantic Testnet.
 **Type:** ETH Vault / Ownership Control
 
 Minimal ETH vault allowing deposits via receive() and owner-only withdrawals.
+
+---
+
+## 🔹 TimeLockVault.sol
+
+**Network:** Pharos Atlantic Testnet  
+**Address:** https://pharos-explorer.io/address/0x5386a04D1daeC4ba3855FB214fAD226287957385  
+**Type:** Time-Locked ETH Vault
+
+ETH vault contract that locks deposited funds until a predefined unlock timestamp.
+Withdrawals are restricted to the owner and only allowed after the unlock time.
