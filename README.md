@@ -45,3 +45,16 @@ Withdrawals are restricted to the owner and only allowed after the unlock time.
 
 Minimal ETH vault allowing direct deposits via `receive()` and owner-only withdrawals.  
 Implements modern ETH transfer logic using `call`, ownership management, and full event logging.
+
+---
+
+🔹 AuthorizedVault.sol
+
+**Network:** Pharos Atlantic Testnet  
+**Address:**  https://pharosscan.io/address/0xf3ba5BC136356a26b8dddCFA22c2252D7Bc20C81
+**Type:** Permissioned ETH Vault / Allowance-Based Withdrawal
+
+Overview:
+AuthorizedVault is a lightweight ETH vault that allows the owner to assign granular withdrawal permissions to specific addresses. Authorized spenders can withdraw ETH up to a predefined allowance, which is enforced and updated on-chain after each withdrawal.
+
+The contract is designed to demonstrate access control, allowance management, and safe ETH transfers using modern Solidity best practices.
