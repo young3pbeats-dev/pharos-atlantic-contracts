@@ -58,3 +58,16 @@ Overview:
 AuthorizedVault is a lightweight ETH vault that allows the owner to assign granular withdrawal permissions to specific addresses. Authorized spenders can withdraw ETH up to a predefined allowance, which is enforced and updated on-chain after each withdrawal.
 
 The contract is designed to demonstrate access control, allowance management, and safe ETH transfers using modern Solidity best practices.
+
+---
+
+## 🔹 EventFlag.sol
+
+**Network:** Pharos Atlantic Testnet  
+**Address:** https://pharosscan.io/address/0x158410ad194fc7AFf9A67D7acFf2096F9b5289C1  
+**Type:** Event / Flag Registry
+
+Minimal smart contract to store and toggle boolean flags on-chain.
+
+Designed for event signaling, testing workflows, and builder activity tracking.
+Only the deployer can set or update flags.
