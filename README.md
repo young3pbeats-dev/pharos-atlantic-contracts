@@ -71,3 +71,18 @@ Minimal smart contract to store and toggle boolean flags on-chain.
 
 Designed for event signaling, testing workflows, and builder activity tracking.
 Only the deployer can set or update flags.
+
+---
+
+## 🔹 PharosBadge.sol
+
+**Network:** Pharos Atlantic Testnet
+**Address:** [https://pharosscan.io/address/0x4C4eb8fb2C01AEBD5F0841E6CDbF67AcCaD78541]
+**Type:** On-chain Badge / Reputation Registry
+
+PharosBadge is a lightweight on-chain reputation contract that allows the deployer to issue and revoke badges for specific addresses.
+
+Each badge stores a custom label and an issuance timestamp, providing verifiable proof of participation or status.
+
+The contract demonstrates access control, structured state storage, and event-based tracking, and can be used as a foundation for reputation systems, contributor recognition, whitelist logic, or future NFT-based extensions.
+
