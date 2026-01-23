@@ -77,7 +77,9 @@ Only the deployer can set or update flags.
 ## 🔹 PharosBadge.sol
 
 **Network:** Pharos Atlantic Testnet
+
 **Address:** [https://pharosscan.io/address/0x4C4eb8fb2C01AEBD5F0841E6CDbF67AcCaD78541]
+
 **Type:** On-chain Badge / Reputation Registry
 
 PharosBadge is a lightweight on-chain reputation contract that allows the deployer to issue and revoke badges for specific addresses.
