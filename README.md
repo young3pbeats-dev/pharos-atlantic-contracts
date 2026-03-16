@@ -5,12 +5,14 @@ Minimal Solidity contracts deployed on Pharos Atlantic Testnet.
 ---
 
 ## 🔹 CounterLite.sol
+
 **Network:** Pharos Atlantic Testnet  
 **Address:** https://atlantic.pharosscan.xyz/address/0x5C740823bD4aBBCFA72FC6ca91E9bdBa6Cb03907
 
 ---
 
 ## 🔹 PharosHello.sol
+
 **Network:** Pharos Atlantic Testnet  
 **Address:** https://atlantic.pharosscan.xyz/address/0x45ed57D7CE1A0AC29EFb0a4dcBb0c37351efC242
 
@@ -48,14 +50,12 @@ Implements modern ETH transfer logic using `call`, ownership management, and ful
 
 ---
 
-🔹 AuthorizedVault.sol
+## 🔹 AuthorizedVault.sol
 
 **Network:** Pharos Atlantic Testnet  
-**Address:**  https://pharosscan.io/address/0xf3ba5BC136356a26b8dddCFA22c2252D7Bc20C81
-
+**Address:** https://pharosscan.io/address/0xf3ba5BC136356a26b8dddCFA22c2252D7Bc20C81  
 **Type:** Permissioned ETH Vault / Allowance-Based Withdrawal
 
-Overview:
 AuthorizedVault is a lightweight ETH vault that allows the owner to assign granular withdrawal permissions to specific addresses. Authorized spenders can withdraw ETH up to a predefined allowance, which is enforced and updated on-chain after each withdrawal.
 
 The contract is designed to demonstrate access control, allowance management, and safe ETH transfers using modern Solidity best practices.
@@ -77,10 +77,8 @@ Only the deployer can set or update flags.
 
 ## 🔹 PharosBadge.sol
 
-**Network:** Pharos Atlantic Testnet
-
-**Address:** [https://pharosscan.io/address/0x4C4eb8fb2C01AEBD5F0841E6CDbF67AcCaD78541]
-
+**Network:** Pharos Atlantic Testnet  
+**Address:** https://pharosscan.io/address/0x4C4eb8fb2C01AEBD5F0841E6CDbF67AcCaD78541  
 **Type:** On-chain Badge / Reputation Registry
 
 PharosBadge is a lightweight on-chain reputation contract that allows the deployer to issue and revoke badges for specific addresses.
@@ -89,3 +87,13 @@ Each badge stores a custom label and an issuance timestamp, providing verifiable
 
 The contract demonstrates access control, structured state storage, and event-based tracking, and can be used as a foundation for reputation systems, contributor recognition, whitelist logic, or future NFT-based extensions.
 
+---
+
+## 🔹 PharosStakingPool.sol ⚙️
+
+**Network:** Pharos Atlantic Testnet  
+**Address:** https://pharosscan.io/address/0x3dd487eB60EE43d53169766eA692Cd2e68038116  
+**Type:** Epoch-Based ETH Staking Pool
+
+ETH staking pool with per-block reward accrual, 4-tier multiplier system (1x–2x),
+epoch snapshots every 200 blocks, auto-claim on re-stake, and emergency withdraw with penalty.
