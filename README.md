@@ -96,4 +96,15 @@ The contract demonstrates access control, structured state storage, and event-ba
 **Type:** Epoch-Based ETH Staking Pool
 
 ETH staking pool with per-block reward accrual, 4-tier multiplier system (1x–2x),
+
+---
+
+## 🔹 PharosSoulbound.sol ⚙️
+
+**Network:** Pharos Atlantic Testnet  
+**Address:** https://pharosscan.io/address/0x5F5FF4645e65be98eCEDdCCf24e647255e65F3ca  
+**Type:** Soulbound Token / On-chain Reputation
+
+ERC721 non-transferable badge with fully on-chain SVG metadata and 3-tier reputation system (Builder / Contributor / Legend). Supports mint, tier upgrade, and revoke. All transfers are permanently blocked at contract level.
+```
 epoch snapshots every 200 blocks, auto-claim on re-stake, and emergency withdraw with penalty.
