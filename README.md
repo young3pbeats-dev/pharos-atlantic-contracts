@@ -106,5 +106,16 @@ ETH staking pool with per-block reward accrual, 4-tier multiplier system (1x–2
 **Type:** Soulbound Token / On-chain Reputation
 
 ERC721 non-transferable badge with fully on-chain SVG metadata and 3-tier reputation system (Builder / Contributor / Legend). Supports mint, tier upgrade, and revoke. All transfers are permanently blocked at contract level.
+
+---
+
+## Pharos Registry Contract
+
+**Network:** Pharos Atlantic Testnet 
+**Address:** https://pharosscan.io/address/0x50c91d2156c62Ca6a3b1BC39EAab379581C73510
+**Type:** On-chain Registry / User Index
+
+
+Simple onchain registry allowing wallets to register and be tracked inside the Pharos ecosystem.
 ```
 epoch snapshots every 200 blocks, auto-claim on re-stake, and emergency withdraw with penalty.
